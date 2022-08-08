@@ -1,0 +1,11 @@
+TestNgDemo\GroupAnnotationDemo.class
+TestNgDemo\AnnotationsDemo1.class
+TestNgDemo\PriorityExample.class
+TestNgDemo\AlwaysRunAnnotation.class
+dataprovider\DataProviderDemo.class
+TestNgDemo\AnnotationsDemo2.class
+parameterization\LoginTest.class
+TestNgDemo\DependsOnExample.class
+dataprovider\CustomDataProvider.class
+factoryannotation\TestFactory.class
+factoryannotation\FactoryClass.class
