@@ -2,8 +2,13 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 	<test name="Annotations">
-		<!-- <groups> <run> <include name="regression"></include> <include name="smoke"></include> 
-			<include name="sanity"></include> </run> </groups> -->
+		<groups>
+			<run>
+				<include name="regression"></include>
+				<include name="smoke"></include>
+				<include name="sanity"></include>
+			</run>
+		</groups>
 		<classes>
 			<class name="TestNgDemo.AnnotationsDemo1">
 				<methods>
@@ -17,11 +22,18 @@
 					<include name="test4"></include>
 				</methods>
 			</class>
+
+		</classes>
+	</test> <!-- Test -->
+	<test name="DataProvider">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
 			<class name="dataprovider.OrangeHRMDataProvider">
 				<methods>
 					<include name="login"></include>
 				</methods>
 			</class>
+
 		</classes>
-	</test> <!-- Test -->
+	</test>
 </suite> <!-- Suite -->

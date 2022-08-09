@@ -5,10 +5,12 @@ import java.sql.DriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -18,11 +20,20 @@ public class OrangeHRMDataProvider {
 	
 	public WebDriver driver = null;
 	
+	@Parameters({"browser"})
 	@BeforeMethod
-	public void openBrowser() {
+	public void openBrowser(String browserName) {
+		if(browserName.equals("chrome")) {
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver();
+		}
+		else if(browserName.equals("firefox")) {
+			WebDriverManager.firefoxdriver().setup();
+			driver = new FirefoxDriver();
+			
+		}
 		
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+		
 		driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login");
 	}
 	

@@ -23,7 +23,7 @@ public class Baseclass {
 		System.out.println("Before Test executes before every test in the suite");
 	}
 
-	@BeforeGroups
+	@BeforeGroups(groups = {"regression", "smoke", "sanity"})
 	public void before_group() {
 		System.out.println("Before groups");
 
@@ -51,7 +51,7 @@ public class Baseclass {
 		System.out.println("After Class executes after class");
 	}
 
-	@AfterGroups
+	@AfterGroups(groups = {"regression", "smoke", "sanity"})
 	public void after_group() {
 		System.out.println("Before groups");
 

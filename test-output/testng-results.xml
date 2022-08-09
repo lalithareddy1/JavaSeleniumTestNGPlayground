@@ -1,31 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="4" total="10" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="6726" started-at="2022-08-08T12:49:59 EDT" finished-at="2022-08-08T12:50:06 EDT">
+  <suite name="Suite" duration-ms="8115" started-at="2022-08-08T21:29:54 EDT" finished-at="2022-08-08T21:30:02 EDT">
     <groups>
       <group name="regression">
-        <method signature="AnnotationsDemo1.test1()[pri:0, instance:TestNgDemo.AnnotationsDemo1@646007f4]" name="test1" class="TestNgDemo.AnnotationsDemo1"/>
-        <method signature="AnnotationsDemo2.test3()[pri:0, instance:TestNgDemo.AnnotationsDemo2@548ad73b]" name="test3" class="TestNgDemo.AnnotationsDemo2"/>
+        <method signature="AnnotationsDemo1.test1()[pri:0, instance:TestNgDemo.AnnotationsDemo1@2e3fc542]" name="test1" class="TestNgDemo.AnnotationsDemo1"/>
+        <method signature="AnnotationsDemo2.test3()[pri:0, instance:TestNgDemo.AnnotationsDemo2@5579bb86]" name="test3" class="TestNgDemo.AnnotationsDemo2"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="AnnotationsDemo1.test1()[pri:0, instance:TestNgDemo.AnnotationsDemo1@646007f4]" name="test1" class="TestNgDemo.AnnotationsDemo1"/>
-        <method signature="AnnotationsDemo2.test3()[pri:0, instance:TestNgDemo.AnnotationsDemo2@548ad73b]" name="test3" class="TestNgDemo.AnnotationsDemo2"/>
-        <method signature="AnnotationsDemo2.test4()[pri:0, instance:TestNgDemo.AnnotationsDemo2@548ad73b]" name="test4" class="TestNgDemo.AnnotationsDemo2"/>
+        <method signature="AnnotationsDemo1.test1()[pri:0, instance:TestNgDemo.AnnotationsDemo1@2e3fc542]" name="test1" class="TestNgDemo.AnnotationsDemo1"/>
+        <method signature="AnnotationsDemo2.test3()[pri:0, instance:TestNgDemo.AnnotationsDemo2@5579bb86]" name="test3" class="TestNgDemo.AnnotationsDemo2"/>
+        <method signature="AnnotationsDemo2.test4()[pri:0, instance:TestNgDemo.AnnotationsDemo2@5579bb86]" name="test4" class="TestNgDemo.AnnotationsDemo2"/>
       </group> <!-- smoke -->
       <group name="sanity">
-        <method signature="AnnotationsDemo1.test2()[pri:0, instance:TestNgDemo.AnnotationsDemo1@646007f4]" name="test2" class="TestNgDemo.AnnotationsDemo1"/>
-        <method signature="AnnotationsDemo2.test3()[pri:0, instance:TestNgDemo.AnnotationsDemo2@548ad73b]" name="test3" class="TestNgDemo.AnnotationsDemo2"/>
-        <method signature="AnnotationsDemo2.test4()[pri:0, instance:TestNgDemo.AnnotationsDemo2@548ad73b]" name="test4" class="TestNgDemo.AnnotationsDemo2"/>
+        <method signature="AnnotationsDemo1.test2()[pri:0, instance:TestNgDemo.AnnotationsDemo1@2e3fc542]" name="test2" class="TestNgDemo.AnnotationsDemo1"/>
+        <method signature="AnnotationsDemo2.test3()[pri:0, instance:TestNgDemo.AnnotationsDemo2@5579bb86]" name="test3" class="TestNgDemo.AnnotationsDemo2"/>
+        <method signature="AnnotationsDemo2.test4()[pri:0, instance:TestNgDemo.AnnotationsDemo2@5579bb86]" name="test4" class="TestNgDemo.AnnotationsDemo2"/>
       </group> <!-- sanity -->
     </groups>
-    <test name="Annotations" duration-ms="6726" started-at="2022-08-08T12:49:59 EDT" finished-at="2022-08-08T12:50:06 EDT">
+    <test name="Annotations" duration-ms="46" started-at="2022-08-08T21:29:54 EDT" finished-at="2022-08-08T21:29:54 EDT">
+      <class name="TestNgDemo.AnnotationsDemo1">
+        <test-method status="PASS" signature="before_group()[pri:0, instance:TestNgDemo.AnnotationsDemo1@2e3fc542]" name="before_group" is-config="true" duration-ms="3" started-at="2022-08-08T21:29:54 EDT" finished-at="2022-08-08T21:29:54 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_group -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:TestNgDemo.AnnotationsDemo1@2e3fc542]" name="test1" duration-ms="4" started-at="2022-08-08T21:29:54 EDT" finished-at="2022-08-08T21:29:54 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="before_group()[pri:0, instance:TestNgDemo.AnnotationsDemo1@2e3fc542]" name="before_group" is-config="true" duration-ms="1" started-at="2022-08-08T21:29:54 EDT" finished-at="2022-08-08T21:29:54 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_group -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:TestNgDemo.AnnotationsDemo1@2e3fc542]" name="test2" duration-ms="1" started-at="2022-08-08T21:29:54 EDT" finished-at="2022-08-08T21:29:54 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="after_group()[pri:0, instance:TestNgDemo.AnnotationsDemo1@2e3fc542]" name="after_group" is-config="true" duration-ms="0" started-at="2022-08-08T21:29:54 EDT" finished-at="2022-08-08T21:29:54 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_group -->
+        <test-method status="PASS" signature="after_group()[pri:0, instance:TestNgDemo.AnnotationsDemo1@2e3fc542]" name="after_group" is-config="true" duration-ms="0" started-at="2022-08-08T21:29:54 EDT" finished-at="2022-08-08T21:29:54 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_group -->
+      </class> <!-- TestNgDemo.AnnotationsDemo1 -->
+      <class name="TestNgDemo.AnnotationsDemo2">
+        <test-method status="PASS" signature="test3()[pri:0, instance:TestNgDemo.AnnotationsDemo2@5579bb86]" name="test3" duration-ms="0" started-at="2022-08-08T21:29:54 EDT" finished-at="2022-08-08T21:29:54 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:TestNgDemo.AnnotationsDemo2@5579bb86]" name="test4" duration-ms="1" started-at="2022-08-08T21:29:54 EDT" finished-at="2022-08-08T21:29:54 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- TestNgDemo.AnnotationsDemo2 -->
+    </test> <!-- Annotations -->
+    <test name="DataProvider" duration-ms="8033" started-at="2022-08-08T21:29:54 EDT" finished-at="2022-08-08T21:30:02 EDT">
       <class name="dataprovider.OrangeHRMDataProvider">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:dataprovider.OrangeHRMDataProvider@4c762604]" name="openBrowser" is-config="true" duration-ms="3321" started-at="2022-08-08T12:49:59 EDT" finished-at="2022-08-08T12:50:02 EDT">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:dataprovider.OrangeHRMDataProvider@48a242ce]" name="openBrowser" is-config="true" duration-ms="4458" started-at="2022-08-08T21:29:54 EDT" finished-at="2022-08-08T21:29:58 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:0, instance:dataprovider.OrangeHRMDataProvider@4c762604]" name="login" duration-ms="127" started-at="2022-08-08T12:50:02 EDT" data-provider="loginCredentials" finished-at="2022-08-08T12:50:03 EDT">
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:0, instance:dataprovider.OrangeHRMDataProvider@48a242ce]" name="login" duration-ms="149" started-at="2022-08-08T21:29:58 EDT" data-provider="loginCredentials" finished-at="2022-08-08T21:29:58 EDT">
           <params>
             <param index="0">
               <value>
@@ -41,15 +86,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="close()[pri:0, instance:dataprovider.OrangeHRMDataProvider@4c762604]" name="close" is-config="true" duration-ms="632" started-at="2022-08-08T12:50:03 EDT" finished-at="2022-08-08T12:50:03 EDT">
+        <test-method status="PASS" signature="close()[pri:0, instance:dataprovider.OrangeHRMDataProvider@48a242ce]" name="close" is-config="true" duration-ms="679" started-at="2022-08-08T21:29:58 EDT" finished-at="2022-08-08T21:29:59 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:dataprovider.OrangeHRMDataProvider@4c762604]" name="openBrowser" is-config="true" duration-ms="1826" started-at="2022-08-08T12:50:03 EDT" finished-at="2022-08-08T12:50:05 EDT">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:dataprovider.OrangeHRMDataProvider@48a242ce]" name="openBrowser" is-config="true" duration-ms="1943" started-at="2022-08-08T21:29:59 EDT" finished-at="2022-08-08T21:30:01 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:0, instance:dataprovider.OrangeHRMDataProvider@4c762604]" name="login" duration-ms="134" started-at="2022-08-08T12:50:05 EDT" data-provider="loginCredentials" finished-at="2022-08-08T12:50:05 EDT">
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:0, instance:dataprovider.OrangeHRMDataProvider@48a242ce]" name="login" duration-ms="160" started-at="2022-08-08T21:30:01 EDT" data-provider="loginCredentials" finished-at="2022-08-08T21:30:01 EDT">
           <params>
             <param index="0">
               <value>
@@ -65,95 +117,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="close()[pri:0, instance:dataprovider.OrangeHRMDataProvider@4c762604]" name="close" is-config="true" duration-ms="628" started-at="2022-08-08T12:50:05 EDT" finished-at="2022-08-08T12:50:06 EDT">
+        <test-method status="PASS" signature="close()[pri:0, instance:dataprovider.OrangeHRMDataProvider@48a242ce]" name="close" is-config="true" duration-ms="637" started-at="2022-08-08T21:30:01 EDT" finished-at="2022-08-08T21:30:02 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- dataprovider.OrangeHRMDataProvider -->
-      <class name="TestNgDemo.AnnotationsDemo1">
-        <test-method status="PASS" signature="before_suite()[pri:0, instance:TestNgDemo.AnnotationsDemo1@646007f4]" name="before_suite" is-config="true" duration-ms="5" started-at="2022-08-08T12:49:59 EDT" finished-at="2022-08-08T12:49:59 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before_suite -->
-        <test-method status="PASS" signature="before_test()[pri:0, instance:TestNgDemo.AnnotationsDemo1@646007f4]" name="before_test" is-config="true" duration-ms="0" started-at="2022-08-08T12:49:59 EDT" finished-at="2022-08-08T12:49:59 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before_test -->
-        <test-method status="PASS" signature="before_class()[pri:0, instance:TestNgDemo.AnnotationsDemo1@646007f4]" name="before_class" is-config="true" duration-ms="0" started-at="2022-08-08T12:49:59 EDT" finished-at="2022-08-08T12:49:59 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before_class -->
-        <test-method status="PASS" signature="before_method()[pri:0, instance:TestNgDemo.AnnotationsDemo1@646007f4]" name="before_method" is-config="true" duration-ms="0" started-at="2022-08-08T12:49:59 EDT" finished-at="2022-08-08T12:49:59 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before_method -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:TestNgDemo.AnnotationsDemo1@646007f4]" name="test1" duration-ms="3" started-at="2022-08-08T12:49:59 EDT" finished-at="2022-08-08T12:49:59 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="before_method()[pri:0, instance:TestNgDemo.AnnotationsDemo1@646007f4]" name="before_method" is-config="true" duration-ms="1" started-at="2022-08-08T12:49:59 EDT" finished-at="2022-08-08T12:49:59 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before_method -->
-        <test-method status="PASS" signature="after_method()[pri:0, instance:TestNgDemo.AnnotationsDemo1@646007f4]" name="after_method" is-config="true" duration-ms="0" started-at="2022-08-08T12:49:59 EDT" finished-at="2022-08-08T12:49:59 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after_method -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:TestNgDemo.AnnotationsDemo1@646007f4]" name="test2" duration-ms="0" started-at="2022-08-08T12:49:59 EDT" finished-at="2022-08-08T12:49:59 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="after_class()[pri:0, instance:TestNgDemo.AnnotationsDemo1@646007f4]" name="after_class" is-config="true" duration-ms="0" started-at="2022-08-08T12:49:59 EDT" finished-at="2022-08-08T12:49:59 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after_class -->
-        <test-method status="PASS" signature="after_method()[pri:0, instance:TestNgDemo.AnnotationsDemo1@646007f4]" name="after_method" is-config="true" duration-ms="0" started-at="2022-08-08T12:49:59 EDT" finished-at="2022-08-08T12:49:59 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after_method -->
-        <test-method status="PASS" signature="after_test()[pri:0, instance:TestNgDemo.AnnotationsDemo1@646007f4]" name="after_test" is-config="true" duration-ms="0" started-at="2022-08-08T12:50:06 EDT" finished-at="2022-08-08T12:50:06 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after_test -->
-        <test-method status="PASS" signature="after_suite()[pri:0, instance:TestNgDemo.AnnotationsDemo1@646007f4]" name="after_suite" is-config="true" duration-ms="0" started-at="2022-08-08T12:50:06 EDT" finished-at="2022-08-08T12:50:06 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after_suite -->
-      </class> <!-- TestNgDemo.AnnotationsDemo1 -->
-      <class name="TestNgDemo.AnnotationsDemo2">
-        <test-method status="PASS" signature="before_class()[pri:0, instance:TestNgDemo.AnnotationsDemo2@548ad73b]" name="before_class" is-config="true" duration-ms="1" started-at="2022-08-08T12:49:59 EDT" finished-at="2022-08-08T12:49:59 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before_class -->
-        <test-method status="PASS" signature="before_method()[pri:0, instance:TestNgDemo.AnnotationsDemo2@548ad73b]" name="before_method" is-config="true" duration-ms="0" started-at="2022-08-08T12:49:59 EDT" finished-at="2022-08-08T12:49:59 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before_method -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:TestNgDemo.AnnotationsDemo2@548ad73b]" name="test3" duration-ms="1" started-at="2022-08-08T12:49:59 EDT" finished-at="2022-08-08T12:49:59 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="after_method()[pri:0, instance:TestNgDemo.AnnotationsDemo2@548ad73b]" name="after_method" is-config="true" duration-ms="0" started-at="2022-08-08T12:49:59 EDT" finished-at="2022-08-08T12:49:59 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after_method -->
-        <test-method status="PASS" signature="before_method()[pri:0, instance:TestNgDemo.AnnotationsDemo2@548ad73b]" name="before_method" is-config="true" duration-ms="9" started-at="2022-08-08T12:49:59 EDT" finished-at="2022-08-08T12:49:59 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before_method -->
-        <test-method status="PASS" signature="test4()[pri:0, instance:TestNgDemo.AnnotationsDemo2@548ad73b]" name="test4" duration-ms="1" started-at="2022-08-08T12:49:59 EDT" finished-at="2022-08-08T12:49:59 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test4 -->
-        <test-method status="PASS" signature="after_method()[pri:0, instance:TestNgDemo.AnnotationsDemo2@548ad73b]" name="after_method" is-config="true" duration-ms="0" started-at="2022-08-08T12:49:59 EDT" finished-at="2022-08-08T12:49:59 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after_method -->
-        <test-method status="PASS" signature="after_class()[pri:0, instance:TestNgDemo.AnnotationsDemo2@548ad73b]" name="after_class" is-config="true" duration-ms="0" started-at="2022-08-08T12:49:59 EDT" finished-at="2022-08-08T12:49:59 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after_class -->
-      </class> <!-- TestNgDemo.AnnotationsDemo2 -->
-    </test> <!-- Annotations -->
+    </test> <!-- DataProvider -->
   </suite> <!-- Suite -->
 </testng-results>
